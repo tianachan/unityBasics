@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("beep boop tax evasion");
-            GetComponent<Rigidbody>;
+            GetComponent<Rigidbody>().AddForce(Vector3.up * 5, ForceMode.VelocityChange);
         }
     }
 }
