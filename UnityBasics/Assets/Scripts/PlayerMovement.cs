@@ -11,10 +11,15 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 velocity;
 
+    bool airborne;
+    float airborneTime;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log(velocity);
+        // Should be (0, 0, 0)
     }
 
     // Update is called once per frame
